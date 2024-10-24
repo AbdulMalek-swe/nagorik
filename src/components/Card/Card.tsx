@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const MovieCard = ({ movie }:{movie:movieTypes}) => {
     return (
-      <Link href={`movie-details/${movie?.id}`} className="max-w-xs rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden">
+      <Link href={`movie-details/${movie?.id}`} className="max-w-xs   rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden">
         <Image
           width={200}
           height={300}
